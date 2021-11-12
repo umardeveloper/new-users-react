@@ -1,0 +1,41 @@
+li {
+  list-style: none;
+}
+.loginpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-heading {
+    font-family: sans-serif;
+    color: #ffd700;
+  }
+  &-input {
+    width: 300px;
+    padding: 5px;
+    background-color: transparent;
+    color: gold;
+    border: 2px dotted gold;
+    margin-bottom: 2px;
+  }
+  &-btn {
+    background-color: transparent;
+    color: gold;
+    border: 1px solid gold;
+    border-left: 5px solid gold;
+    width: 100px;
+  }
+  &-btn:hover {
+    transition: background-color 2s ease;
+    border: 1px solid gold;
+    background-color: gold;
+    color: black;
+  }
+}
+.users {
+  width: 400px;
+}
+.userslist {
+  display: flex;
+  justify-content: space-around;
+}
